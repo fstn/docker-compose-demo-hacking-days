@@ -5,6 +5,7 @@ mysqldb:
     MYSQL_USER: mysql
     MYSQL_PASSWORD: mysql
     MYSQL_ROOT_PASSWORD: supersecret
+
 mywildfly:
   image: fstn/wildfly-mysql-user-service
   links:
